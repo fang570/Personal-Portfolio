@@ -1,0 +1,22 @@
+#home{ 
+    width: 100% auto; 
+    overflow: hidden;
+}
+
+
+#home{
+    margin: 0;
+    padding: 0 auto;
+    min-height: 100%;
+    background-color: #f9f9f9;
+}
+
+
+#projects{
+    background-color: #DDDDDD;
+    color: #333333;
+    min-height: 100%;
+}
+#footer{
+    overflow:hidden;
+}

@@ -1,0 +1,31 @@
+#contact{
+    overflow: hidden;
+    display: inline;
+}
+#contact .copyrightInfo{
+    float: right;
+    padding-right: 40px;
+    font-size: 15px;
+    transform: translateY(20%);
+}
+#contactText{
+    padding-left: 65px;
+    padding-top: 30px;
+}
+
+#linksInfo{
+    padding-left: 55px;
+    color: grey;
+}
+.footerLink:link{
+    color: #000;
+    text-decoration: none; 
+}
+.footerLink:visited { 
+    color:#000;
+}
+.footerLink:hover{
+    text-decoration: none;
+    color: #ffc857;
+}
+

@@ -1,0 +1,17 @@
+.navbar .navbar-brand{
+    color: black;
+}
+
+.navbar .nav-link{
+    color: black;
+}
+
+.navbar .nav-link{
+    letter-spacing:2px;
+    padding: 20px;
+}
+
+.navbar{
+    background-color: #f9f9f9;
+}
+

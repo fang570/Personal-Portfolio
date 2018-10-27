@@ -1,0 +1,112 @@
+#home #content h1{
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+#content{
+    transform: translateY(50%);
+    padding: 40px;
+}
+#content .color{
+    color:#70d6ff;
+}
+#content .color1{
+    color:#ff6978
+}
+
+.navbar-brand{
+font-family: "Sacramento", cursive;
+color: black;
+}
+#links{
+    height: 400px;
+    width: 32px;
+    float: right;
+    transform:translateY(-45%);
+    position: relative;
+    margin-right: 10px;
+}
+#links .line1{
+    border-left: 3px solid black;
+    height: 100px;
+    transform: translateX(45%);
+    margin-bottom: 10px;
+}
+
+
+#links .line2{
+    border-left: 3px solid black;
+    height: 100px;
+    transform: translate(45%, -10%);
+    margin-bottom: 10px;
+    
+}
+
+svg{
+    padding-bottom: 10px;
+    transform: translateX(-10%)
+}
+.githubIcon:hover{
+    fill: #83e8ba;
+}
+
+.linkedinIcon:hover{
+    fill: #83e8ba; 
+}
+
+.mailIcon:hover{
+    fill: #83e8ba;
+}
+
+.resumeIcon:hover{
+    fill: #83e8ba;
+}
+.resumeIcon{
+    transform: translate(-8px,-17px);
+}
+
+.mailIcon{
+    transform: translate(-4px,-6px);
+}
+
+
+#home p{
+    text-align: center;
+    font-size: 30;
+    color: grey;
+    transform: translateY(80%);
+}
+
+@media (max-width: 1131px){
+    #links{
+        display:none;
+    }
+}
+
+@media (max-width: 657px) and (min-width: 470px){
+    h1{
+        transform: translateY(-90%);
+    }
+    #home{
+        height: 100%
+    }
+}
+
+@media (max-width: 470px) and (min-width: 343px){
+    h1{
+        transform: translateY(-90%);
+    }
+}
+
+@media(max-width: 343px){
+   h1{
+        transform: translateY(-130%);
+    } 
+}
+@media screen{
+    #projects{
+        min-height: 100%;
+    }
+}
+
+
