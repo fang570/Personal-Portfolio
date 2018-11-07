@@ -13,5 +13,10 @@
 
 .navbar{
     background-color: #f9f9f9;
+    height: 10%
 }
 
+.navbar-collapse{
+    background: #f9f9f9;
+    opacity: 1;
+}

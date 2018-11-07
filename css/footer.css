@@ -1,20 +1,14 @@
 #contact{
-    overflow: hidden;
-    display: inline;
+    bottom: 0;
+    top: 100%;
 }
-#contact .copyrightInfo{
-    float: right;
-    padding-right: 40px;
-    font-size: 15px;
-    transform: translateY(20%);
-}
+
 #contactText{
-    padding-left: 65px;
-    padding-top: 30px;
+    text-align: center;
 }
 
 #linksInfo{
-    padding-left: 55px;
+    text-align: center;
     color: grey;
 }
 .footerLink:link{

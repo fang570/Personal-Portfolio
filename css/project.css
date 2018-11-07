@@ -1,0 +1,147 @@
+/*Project Header*/
+#projectPageHeader{
+    display: block;
+    height:15%;
+}
+
+#projectPageHeader h1{
+    text-align: center;
+    transform: translateY(50%);
+    color: #063942;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Project Col Sizing*/
+#projectsColOne{
+    background-color: #ECEAEA;
+}
+
+
+#projectsColTwo{
+    background-color: #ECEAEA;
+}
+
+#projectImages{
+    height:85%;
+}
+
+/*Col One Box one*/
+
+#projectOne{
+    padding: 5%;
+    height: 80%;
+    width: 100%;
+}
+
+#projectTwo{
+    padding: 5%;
+    height: 80%;
+    width: 100%;
+}
+
+/*Col One Project Boxes*/
+
+#projectOne .boxOne{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #0E4749;
+    top: 0;
+    transition: top ease 0.3s;
+}
+
+#projectOne .footerOne{
+    height: 20%;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+}
+
+#projectOne .boxOne:hover{
+    box-shadow: 0px 8px 14px #5C5C5C;
+    top: -2%;
+}
+
+
+/*Footer Text*/
+
+#projectOne .footerOne h3{
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+#projectOne .footerOne a:hover{
+    text-decoration: none;   
+}
+
+
+
+
+/*Col Two Project Boxes*/
+
+#projectTwo .boxTwo{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #508484;
+    top: 0%;
+}
+
+#projectTwo .footerTwo{
+    height: 20%;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+}
+
+#projectTwo .boxTwo:hover{
+    box-shadow: 0px 8px 14px #5C5C5C;
+    top: -2%;
+}
+
+/*Media*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #projectOne{
+        padding: 5%;
+        height: 40%;
+        width: 100%;
+    }
+    #projectOne .footerOne h3{
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+    }
+    #projectTwo{
+        padding: 5%;
+        height: 40%;
+        width: 100%;
+    }  
+}
+@media screen and (max-width: 479px) {
+    #projectOne{
+        padding: 5%;
+        height: 50%;
+        width: 100%;
+    }
+    #projectOne .footerOne h3{
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+    }
+
+    #projectTwo{
+        padding: 5%;
+        height: 50%;
+        width: 100%;
+    }
+}

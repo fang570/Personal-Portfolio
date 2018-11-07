@@ -1,51 +1,81 @@
-#home #content h1{
-    display: inline-block;
-    margin-bottom: 30px;
-    font-size: 35px;
+.container-fluid{
+   padding-left: 0;
+   padding-right: 0;
+   height: 100%;
 }
-#content{
-    transform: translateY(50%);
-    padding: 40px;
+.row{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
 }
+#home #titleContent{
+    padding: 10%;
+    height: 100%;
+    width: 100%;
+}
+#home #titleContent #content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+#home #titleContent h1{
+    font-size: 2.25em;
+    font-family: 'Poppins', sans-serif;
+}
+
+
 #content .color{
-    color:#70d6ff;
+/*    color: #40BCD8;*/
+    color: 4CDEFF;
 }
 #content .color1{
-    color:#ff6978
+    color: #ff3b38
 }
 
 .navbar-brand{
 font-family: "Sacramento", cursive;
 color: black;
 }
+
 #links{
-    height: 400px;
-    width: 32px;
-    float: right;
-    transform:translateY(-45%);
-    position: relative;
-    margin-right: 10px;
+    text-align: center;
+     position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    
 }
+#home #sideBar{
+    height:100%;
+    width: 100%;
+    padding: 2%;
+}
+
 #links .line1{
     border-left: 3px solid black;
+    margin-left: 50%;
     height: 100px;
-    transform: translateX(45%);
     margin-bottom: 10px;
+}
+#links .svgPics{
+    margin-bottom: 10px;
+}
+svg{
+    margin-bottom: 5px;
 }
 
 
 #links .line2{
     border-left: 3px solid black;
-    height: 100px;
-    transform: translate(45%, -10%);
-    margin-bottom: 10px;
-    
+    height: 100px;    
+    margin-left: 50%;
+
 }
 
-svg{
-    padding-bottom: 10px;
-    transform: translateX(-10%)
-}
+
 .githubIcon:hover{
     fill: #83e8ba;
 }
@@ -62,51 +92,8 @@ svg{
     fill: #83e8ba;
 }
 .resumeIcon{
-    transform: translate(-8px,-17px);
-}
-
-.mailIcon{
-    transform: translate(-4px,-6px);
-}
-
-
-#home p{
-    text-align: center;
-    font-size: 30;
-    color: grey;
-    transform: translateY(80%);
-}
-
-@media (max-width: 1131px){
-    #links{
-        display:none;
-    }
-}
-
-@media (max-width: 657px) and (min-width: 470px){
-    h1{
-        transform: translateY(-90%);
-    }
-    #home{
-        height: 100%
-    }
-}
-
-@media (max-width: 470px) and (min-width: 343px){
-    h1{
-        transform: translateY(-90%);
-    }
-}
-
-@media(max-width: 343px){
-   h1{
-        transform: translateY(-130%);
-    } 
-}
-@media screen{
-    #projects{
-        min-height: 100%;
-    }
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 
